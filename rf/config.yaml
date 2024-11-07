@@ -1,0 +1,52 @@
+
+data_conf:
+  train_conf:
+    proxy_conf:
+      # data_path: "/media/dell/workspace/workspace_lzy/lzy/proxyremotefinterprinting/code/interval_defined_burst_reshaping/dataset/json/hs_data_train_tcpinfo.json"
+      data_path: "/media/dell/workspace/workspace_lzy/lzy/proxyremotefinterprinting/code/interval_defined_burst_reshaping/dataset/json/hsproxy_data_tcpinfo.json"
+      inthr: 0.1
+      ncpp: 0.0
+      train_rate: 0.9
+      type_list:
+        - "raw_seqs"
+        # - "burst_reshaping"
+        
+    hs_conf:
+      data_path: "/media/dell/workspace/workspace_lzy/lzy/proxyremotefinterprinting/code/interval_defined_burst_reshaping/dataset/json/hs_data_train_tcpinfo.json"
+      inthr: 0.05
+      ncpp: 0.0
+      train_rate: 1
+      type_list:
+        - "raw_seqs"
+        # - "burst_reshaping"
+
+  test_conf:
+    data_path: "/media/dell/workspace/workspace_lzy/lzy/proxyremotefinterprinting/code/interval_defined_burst_reshaping/dataset/json/hs_data_test_tcpinfo.json"
+    inthr: 0.05
+    ncpp: 0.0
+    train_rate: 0
+    type_list:
+      - "raw_seqs"
+      # - "burst_reshaping"
+
+const_conf:
+  length: 5000
+  nb_class: 103
+  max_matrix_len : 5000
+  # Maximum Load Time
+  time_slot : 0.044
+
+model_conf:
+  batch_size: 128
+  nb_epoch: 50
+  pseudo_steps: 8
+  epoch_per_pseudo: 5
+  # nb_epoch: 1
+  # pseudo_steps: 1
+  # epoch_per_pseudo: 1
+  
+  save_path: "./saved_model"
+  save_name_head: "DF"
+  confidence_threshold: 0.99
+  
+
