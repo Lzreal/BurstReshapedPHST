@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Beautiful Landscape",
+        "price": 82,
+        "image": "images/image0.jpg"
+    },
+    {
+        "name": "Sunny Beach",
+        "price": 59,
+        "image": "images/image1.jpg"
+    },
+    {
+        "name": "Mountain View",
+        "price": 49,
+        "image": "images/image2.jpg"
+    },
+    {
+        "name": "City Skyline",
+        "price": 68,
+        "image": "images/image3.jpg"
+    },
+    {
+        "name": "Desert Dunes",
+        "price": 94,
+        "image": "images/image4.jpg"
+    },
+    {
+        "name": "Forest Path",
+        "price": 87,
+        "image": "images/image5.jpg"
+    },
+    {
+        "name": "Snowy Mountain",
+        "price": 40,
+        "image": "images/image6.jpg"
+    },
+    {
+        "name": "Ocean Waves",
+        "price": 98,
+        "image": "images/image7.jpg"
+    },
+    {
+        "name": "Sunset Glow",
+        "price": 33,
+        "image": "images/image8.jpg"
+    },
+    {
+        "name": "River Flow",
+        "price": 91,
+        "image": "images/image9.jpg"
+    },
+    {
+        "name": "Wild Animals",
+        "price": 42,
+        "image": "images/image10.jpg"
+    },
+    {
+        "name": "Flower Bloom",
+        "price": 64,
+        "image": "images/image11.jpg"
+    },
+    {
+        "name": "Calm Lake",
+        "price": 94,
+        "image": "images/image12.jpg"
+    }
+]
